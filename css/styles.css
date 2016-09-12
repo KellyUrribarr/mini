@@ -1,0 +1,263 @@
+/*cabecera*/
+header{
+	background-image: url(../img/img_01.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -199px;
+	background-size: cover;
+	height: 650px;
+}
+
+.box-banner .col-md-12{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	opacity: 0.7;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: "tinos";
+	font-weight: bold;
+	color:#fff;
+	padding:10px 40px;
+	position: relative;
+	top:15px;
+	left: 58px;
+	z-index: 8;
+}
+
+nav a:hover{
+	text-decoration: none;
+	font-family: "tinos";
+	font-weight: bold;
+	color:#909090;
+	padding:10px 40px;
+	position: relative;
+	top:15px;
+	left: 58px;
+}
+
+
+.box-banner .carro{
+	font-weight: bold;
+	position: relative;
+	left: 1070px;
+	top: -36px;
+}
+
+.fa-shopping-cart{
+	padding-right: 10px;
+	font-size: 20px;
+	color:#fff;
+}
+
+.carro a{
+	color:#fff;
+	font-family: "Tinos"
+}
+
+
+.carro a:hover{
+	text-decoration: none;
+	color:#909090;
+	font-family: "Tinos"
+}
+
+
+.box-banner .fondo{
+	width: 350px;
+	height: 400px;
+	background: #000;
+	border-radius: 3%;
+	opacity: 0.1;
+	position: absolute;
+	top:144px;
+	left:857px;
+}
+
+.col-md-4 h4{
+	width: 300px;
+	color:#000;
+	position: absolute;
+	top:140px;
+	left:671px;
+}
+
+.col-md-4 p{
+	width: 300px;
+	color:#000;
+	position: absolute;
+	top:198px;
+	left:671px;
+	;
+}
+/*galeria */
+.box-galeria .productos{
+	font-family: "tinos";
+	margin-bottom: 30px;
+	color:#909090;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.box-galeria img{
+	max-width: 100%;
+	width: 400px;
+	height: 280px;
+}
+
+.box-galeria .text{
+	text-decoration: none;
+	color:#fff;
+	margin-top: -31px;
+	margin-bottom: 47px;
+	padding-bottom:30px;
+	font-family: "Tinos";
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom:2px;
+	position: relative;
+	background-color: #909090;
+}
+
+.box-galeria .text:hover{
+	text-decoration: none;
+	color:red;
+	margin-top: -31px;
+	margin-bottom: 47px;
+	padding-bottom:30px;
+	font-family: "Tinos";
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom:2px;
+	position: relative;
+}
+
+.box-galeria a{
+	text-decoration: none;
+	color:#fff;
+	margin-top: -31px;
+	margin-bottom: 47px;
+	padding-bottom:30px;
+	font-family: "Tinos";
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom:2px;
+	position: relative;
+	background-color: #909090;
+}
+
+.box-galeria a:hover{
+	text-decoration: none;
+	color:#DEDCDC;
+	margin-top: -31px;
+	margin-bottom: 47px;
+	padding-bottom:30px;
+	font-family: "Tinos";
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom:2px;
+	position: relative;
+	background-color: #909090;
+}
+/*contacto*/
+.box-contacto .productos{
+	font-family: "tinos";
+	margin-bottom: 30px;
+	color:#909090;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+.box-contacto h3{
+	font-family: "Tinos";
+	color:#000;
+}
+
+.box-contacto i{
+	color:#9b9b9b;
+  	position: absolute;
+  	top:8px;
+  	left: 27px;
+  	margin-top:-3px;
+  	z-index: 8;
+}
+
+.box-contacto input[type="text"] {
+	background-color: #fff;
+	color: #363636;
+	font-family: "Tinos";
+	padding-left: 36px;
+	width: 100%;
+}
+
+.box-contacto .fa-user{
+	z-index: 8;
+}
+
+.box-contacto .nombr, .email, .mensaje{
+	margin-bottom: 10px;
+	width: 555px;
+	left: 300px;
+}
+
+.box-contacto .mensaje[type="text"] {
+	background-color: #fff;
+	color: #363636;
+	font-family: "Tinos";
+	padding-left: 36px;
+	padding-top: -20px;
+	width: 525px;
+	height: 100px;
+}
+
+.box-contacto button{
+	color:#fff;
+	font-family: "Tinos";
+	font-size: 14px;
+	padding: 9px 15px;
+	border: none;
+	background-color: red;
+	margin-bottom:100px;
+	position: relative;
+	top:-10px;
+	width: 525px;
+	left: 300px;
+}
+
+.box-contacto button:hover{
+	color:#fff;
+	font-family: "Tinos";
+	font-size: 14px;
+	padding: 9px 15px;
+	border: none;
+	background-color: #909090;
+	position: relative;
+	top:-10px;
+	width: 525px;
+}
+
+.box-galeria .fa-cart-plus{
+	padding-right: 5px;
+	color:#fff;
+}
+/*pie*/
+.box-pie{
+	background-color: #EBEBEB;
+	height: 100px;
+}
+
+.box-pie p{
+	font-family: "tinos";
+	color:#909090;
+	text-align: center;
+	padding-top: 40px;
+}
+font-family: 'Tinos', serif;
+font-family: 'Archivo Black', sans-serif;
